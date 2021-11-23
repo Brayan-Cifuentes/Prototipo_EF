@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaVistaSeguridadHSC;
+using CapaVistaReporte;
+using CapaVista;
 
 namespace CapaVistaTraslado
 {
@@ -60,6 +62,33 @@ namespace CapaVistaTraslado
         {
             frmMIDSeguridad seguridad = new frmMIDSeguridad();
             seguridad.Show();
+        }
+
+        private void mantenimientoProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMantenimientoProducto form = new frmMantenimientoProducto();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void reporteadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            ReporteadorAdmin repo = new ReporteadorAdmin();
+            repo.Show();
+        }
+
+        private void consultasInteligentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            menuconsultas consultas = new menuconsultas();
+            consultas.Show();
+        }
+
+        private void mantenimientoBodegaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMantenimientoBodega form = new frmMantenimientoBodega();
+            form.MdiParent = this;
+            form.Show();
         }
     }
 }

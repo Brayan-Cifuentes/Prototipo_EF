@@ -33,8 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaVistaSeguridadHSC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="CapaVistaSeguridadHSC">
       <HintPath>..\..\SeguridadHSC\CapaVista\bin\Debug\CapaVistaSeguridadHSC.dll</HintPath>
     </Reference>
     <Reference Include="System" />

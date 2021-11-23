@@ -1,0 +1,6 @@
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\bin\Debug\CapaModeloNav.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\bin\Debug\CapaModeloNav.pdb
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\obj\Debug\CapaModelo.csprojAssemblyReference.cache
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\obj\Debug\CapaModelo.csproj.CoreCompileInputs.cache
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\obj\Debug\CapaModeloNav.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaModelo\obj\Debug\CapaModeloNav.pdb

@@ -1,0 +1,11 @@
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\obj\Debug\CapaControlador.csprojAssemblyReference.cache
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\obj\Debug\CapaControlador.csproj.CoreCompileInputs.cache
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaControladorNav.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaControladorNav.pdb
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaModeloNav.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaModeloSeguridadHSC.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaModeloNav.pdb
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\bin\Debug\CapaModeloSeguridadHSC.pdb
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\obj\Debug\CapaControlador.csproj.CopyComplete
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\obj\Debug\CapaControladorNav.dll
+D:\Proyectos_Git_Analisis\ExamenFinal\Componentes\Navegador\DLLnav\CapaControlador\obj\Debug\CapaControladorNav.pdb

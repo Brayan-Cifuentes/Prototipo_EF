@@ -30,20 +30,21 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.catálogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.catálogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoBodegaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trasladoEncabezadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trasladoDetalleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +74,20 @@
             this.inicioToolStripMenuItem.Text = "Archivo";
             this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(167, 24);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
+            // 
             // catálogosToolStripMenuItem
             // 
             this.catálogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -82,6 +97,20 @@
             this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(84, 23);
             this.catálogosToolStripMenuItem.Text = "Catálogos";
             // 
+            // mantenimientoProductoToolStripMenuItem
+            // 
+            this.mantenimientoProductoToolStripMenuItem.Name = "mantenimientoProductoToolStripMenuItem";
+            this.mantenimientoProductoToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
+            this.mantenimientoProductoToolStripMenuItem.Text = "Mantenimiento Producto";
+            this.mantenimientoProductoToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoProductoToolStripMenuItem_Click);
+            // 
+            // mantenimientoBodegaToolStripMenuItem
+            // 
+            this.mantenimientoBodegaToolStripMenuItem.Name = "mantenimientoBodegaToolStripMenuItem";
+            this.mantenimientoBodegaToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
+            this.mantenimientoBodegaToolStripMenuItem.Text = "Mantenimiento Bodega";
+            this.mantenimientoBodegaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoBodegaToolStripMenuItem_Click);
+            // 
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -90,6 +119,18 @@
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(77, 23);
             this.procesosToolStripMenuItem.Text = "Procesos";
+            // 
+            // trasladoEncabezadoToolStripMenuItem
+            // 
+            this.trasladoEncabezadoToolStripMenuItem.Name = "trasladoEncabezadoToolStripMenuItem";
+            this.trasladoEncabezadoToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.trasladoEncabezadoToolStripMenuItem.Text = "Traslado Encabezado";
+            // 
+            // trasladoDetalleToolStripMenuItem
+            // 
+            this.trasladoDetalleToolStripMenuItem.Name = "trasladoDetalleToolStripMenuItem";
+            this.trasladoDetalleToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
+            this.trasladoDetalleToolStripMenuItem.Text = "Traslado Detalle";
             // 
             // reportesToolStripMenuItem
             // 
@@ -101,10 +142,25 @@
             // 
             this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.seguridadToolStripMenuItem,
-            this.reporteadorToolStripMenuItem});
+            this.reporteadorToolStripMenuItem,
+            this.consultasInteligentesToolStripMenuItem});
             this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
             this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(105, 23);
             this.herramientasToolStripMenuItem.Text = "Herramientas";
+            // 
+            // seguridadToolStripMenuItem
+            // 
+            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
+            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.seguridadToolStripMenuItem.Text = "Seguridad";
+            this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.seguridadToolStripMenuItem_Click);
+            // 
+            // reporteadorToolStripMenuItem
+            // 
+            this.reporteadorToolStripMenuItem.Name = "reporteadorToolStripMenuItem";
+            this.reporteadorToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.reporteadorToolStripMenuItem.Text = "Reporteador";
+            this.reporteadorToolStripMenuItem.Click += new System.EventHandler(this.reporteadorToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -120,56 +176,12 @@
             this.txtUsuario.Size = new System.Drawing.Size(128, 20);
             this.txtUsuario.TabIndex = 2;
             // 
-            // salirToolStripMenuItem
+            // consultasInteligentesToolStripMenuItem
             // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // cerrarSesiónToolStripMenuItem
-            // 
-            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
-            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
-            // 
-            // mantenimientoProductoToolStripMenuItem
-            // 
-            this.mantenimientoProductoToolStripMenuItem.Name = "mantenimientoProductoToolStripMenuItem";
-            this.mantenimientoProductoToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
-            this.mantenimientoProductoToolStripMenuItem.Text = "Mantenimiento Producto";
-            // 
-            // mantenimientoBodegaToolStripMenuItem
-            // 
-            this.mantenimientoBodegaToolStripMenuItem.Name = "mantenimientoBodegaToolStripMenuItem";
-            this.mantenimientoBodegaToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
-            this.mantenimientoBodegaToolStripMenuItem.Text = "Mantenimiento Bodega";
-            // 
-            // trasladoEncabezadoToolStripMenuItem
-            // 
-            this.trasladoEncabezadoToolStripMenuItem.Name = "trasladoEncabezadoToolStripMenuItem";
-            this.trasladoEncabezadoToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
-            this.trasladoEncabezadoToolStripMenuItem.Text = "Traslado Encabezado";
-            // 
-            // trasladoDetalleToolStripMenuItem
-            // 
-            this.trasladoDetalleToolStripMenuItem.Name = "trasladoDetalleToolStripMenuItem";
-            this.trasladoDetalleToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
-            this.trasladoDetalleToolStripMenuItem.Text = "Traslado Detalle";
-            // 
-            // seguridadToolStripMenuItem
-            // 
-            this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
-            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
-            this.seguridadToolStripMenuItem.Text = "Seguridad";
-            this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.seguridadToolStripMenuItem_Click);
-            // 
-            // reporteadorToolStripMenuItem
-            // 
-            this.reporteadorToolStripMenuItem.Name = "reporteadorToolStripMenuItem";
-            this.reporteadorToolStripMenuItem.Size = new System.Drawing.Size(206, 24);
-            this.reporteadorToolStripMenuItem.Text = "Reporteador";
+            this.consultasInteligentesToolStripMenuItem.Name = "consultasInteligentesToolStripMenuItem";
+            this.consultasInteligentesToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.consultasInteligentesToolStripMenuItem.Text = "Consultas Inteligentes";
+            this.consultasInteligentesToolStripMenuItem.Click += new System.EventHandler(this.consultasInteligentesToolStripMenuItem_Click);
             // 
             // MDI
             // 
@@ -210,5 +222,6 @@
         private System.Windows.Forms.ToolStripMenuItem trasladoDetalleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultasInteligentesToolStripMenuItem;
     }
 }

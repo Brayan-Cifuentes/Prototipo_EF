@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CapaVistaTraslado">
+    <Reference Include="CapaVistaTraslado, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TrasladoProductos\CapaVistaTraslado\bin\Debug\CapaVistaTraslado.dll</HintPath>
     </Reference>
     <Reference Include="System" />
