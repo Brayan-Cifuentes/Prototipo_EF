@@ -1,0 +1,6 @@
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\bin\Debug\CapaModeloSeguridadHSC.dll
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\bin\Debug\CapaModeloSeguridadHSC.pdb
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\obj\Debug\CapaModeloSeguridadHSC.csprojAssemblyReference.cache
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\obj\Debug\CapaModeloSeguridadHSC.csproj.CoreCompileInputs.cache
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\obj\Debug\CapaModeloSeguridadHSC.dll
+D:\Proyectos_Git_Analisis\HoteleriaMantenimientosFinal\Componentes\Seguridad\SeguridadHSC\CapaModelo\obj\Debug\CapaModeloSeguridadHSC.pdb

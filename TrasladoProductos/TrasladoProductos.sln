@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaVistaTraslado", "CapaVistaTraslado\CapaVistaTraslado.csproj", "{C48F7702-548C-4144-9BA8-85E42654B2A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaControladorTraslado", "CapaControladorTraslado\CapaControladorTraslado.csproj", "{64F81727-B395-4ED2-9DDA-C929AC7F75A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaModeloTraslado", "CapaModeloTraslado\CapaModeloTraslado.csproj", "{6F4E8E5C-550E-4602-A436-7E12E4503908}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48F7702-548C-4144-9BA8-85E42654B2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F7702-548C-4144-9BA8-85E42654B2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F7702-548C-4144-9BA8-85E42654B2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F7702-548C-4144-9BA8-85E42654B2A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F81727-B395-4ED2-9DDA-C929AC7F75A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F81727-B395-4ED2-9DDA-C929AC7F75A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F81727-B395-4ED2-9DDA-C929AC7F75A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F81727-B395-4ED2-9DDA-C929AC7F75A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4E8E5C-550E-4602-A436-7E12E4503908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4E8E5C-550E-4602-A436-7E12E4503908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4E8E5C-550E-4602-A436-7E12E4503908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4E8E5C-550E-4602-A436-7E12E4503908}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C4D26D0-96C6-46C4-A45B-D72B4771D232}
+	EndGlobalSection
+EndGlobal
