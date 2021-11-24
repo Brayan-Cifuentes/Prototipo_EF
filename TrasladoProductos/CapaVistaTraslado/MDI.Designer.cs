@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDI));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,9 +43,9 @@
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.consultasInteligentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,12 +126,14 @@
             this.trasladoEncabezadoToolStripMenuItem.Name = "trasladoEncabezadoToolStripMenuItem";
             this.trasladoEncabezadoToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.trasladoEncabezadoToolStripMenuItem.Text = "Traslado Encabezado";
+            this.trasladoEncabezadoToolStripMenuItem.Click += new System.EventHandler(this.trasladoEncabezadoToolStripMenuItem_Click);
             // 
             // trasladoDetalleToolStripMenuItem
             // 
             this.trasladoDetalleToolStripMenuItem.Name = "trasladoDetalleToolStripMenuItem";
             this.trasladoDetalleToolStripMenuItem.Size = new System.Drawing.Size(212, 24);
             this.trasladoDetalleToolStripMenuItem.Text = "Traslado Detalle";
+            this.trasladoDetalleToolStripMenuItem.Click += new System.EventHandler(this.trasladoDetalleToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -151,7 +154,7 @@
             // seguridadToolStripMenuItem
             // 
             this.seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
-            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
             this.seguridadToolStripMenuItem.Text = "Seguridad";
             this.seguridadToolStripMenuItem.Click += new System.EventHandler(this.seguridadToolStripMenuItem_Click);
             // 
@@ -161,6 +164,13 @@
             this.reporteadorToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
             this.reporteadorToolStripMenuItem.Text = "Reporteador";
             this.reporteadorToolStripMenuItem.Click += new System.EventHandler(this.reporteadorToolStripMenuItem_Click);
+            // 
+            // consultasInteligentesToolStripMenuItem
+            // 
+            this.consultasInteligentesToolStripMenuItem.Name = "consultasInteligentesToolStripMenuItem";
+            this.consultasInteligentesToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.consultasInteligentesToolStripMenuItem.Text = "Consultas Inteligentes";
+            this.consultasInteligentesToolStripMenuItem.Click += new System.EventHandler(this.consultasInteligentesToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -176,17 +186,11 @@
             this.txtUsuario.Size = new System.Drawing.Size(128, 20);
             this.txtUsuario.TabIndex = 2;
             // 
-            // consultasInteligentesToolStripMenuItem
-            // 
-            this.consultasInteligentesToolStripMenuItem.Name = "consultasInteligentesToolStripMenuItem";
-            this.consultasInteligentesToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
-            this.consultasInteligentesToolStripMenuItem.Text = "Consultas Inteligentes";
-            this.consultasInteligentesToolStripMenuItem.Click += new System.EventHandler(this.consultasInteligentesToolStripMenuItem_Click);
-            // 
             // MDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.menuStrip1);

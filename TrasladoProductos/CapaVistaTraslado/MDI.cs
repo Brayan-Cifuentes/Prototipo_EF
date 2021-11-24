@@ -90,5 +90,19 @@ namespace CapaVistaTraslado
             form.MdiParent = this;
             form.Show();
         }
+
+        private void trasladoEncabezadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TrasladoE form = new TrasladoE();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void trasladoDetalleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TrasladoD form = new TrasladoD();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }
