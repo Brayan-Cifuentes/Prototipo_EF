@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayudas.chm
+Contents file=Ayudas.hhc
+Default Window=Ayudas Final
+Default topic=Ayuda-Mantenimiento-Bodega.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayudas Final="Ayudas Examen Final","Ayudas.hhc",,"Ayuda-Mantenimiento-Productos.html","Ayuda-Mantenimiento-Productos.html","Ayuda-Mantenimiento-Bodega.html","Ayuda-Mantenimiento-Productos",,"Ayuda-Mantenimiento-Bodega",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Ayuda-Mantenimiento-Bodega.html
+Ayuda-Mantenimiento-Productos.html
+
+[INFOTYPES]
+

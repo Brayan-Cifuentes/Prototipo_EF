@@ -62,7 +62,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(122, 135);
+            this.label1.Location = new System.Drawing.Point(122, 126);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 13);
             this.label1.TabIndex = 1;
@@ -70,7 +70,7 @@
             // 
             // txtIDTrasladoE
             // 
-            this.txtIDTrasladoE.Location = new System.Drawing.Point(125, 163);
+            this.txtIDTrasladoE.Location = new System.Drawing.Point(125, 154);
             this.txtIDTrasladoE.Name = "txtIDTrasladoE";
             this.txtIDTrasladoE.Size = new System.Drawing.Size(100, 20);
             this.txtIDTrasladoE.TabIndex = 2;
@@ -79,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(122, 207);
+            this.label2.Location = new System.Drawing.Point(122, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 3;
@@ -89,40 +89,44 @@
             // 
             this.cbxBodegaOrigen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxBodegaOrigen.FormattingEnabled = true;
-            this.cbxBodegaOrigen.Location = new System.Drawing.Point(125, 236);
+            this.cbxBodegaOrigen.Location = new System.Drawing.Point(125, 227);
             this.cbxBodegaOrigen.Name = "cbxBodegaOrigen";
             this.cbxBodegaOrigen.Size = new System.Drawing.Size(121, 21);
             this.cbxBodegaOrigen.TabIndex = 4;
+            this.cbxBodegaOrigen.SelectedIndexChanged += new System.EventHandler(this.cbxBodegaOrigen_SelectedIndexChanged);
             // 
             // txtBodegaO
             // 
-            this.txtBodegaO.Location = new System.Drawing.Point(263, 236);
+            this.txtBodegaO.Location = new System.Drawing.Point(263, 227);
             this.txtBodegaO.Name = "txtBodegaO";
             this.txtBodegaO.Size = new System.Drawing.Size(67, 20);
             this.txtBodegaO.TabIndex = 5;
             this.txtBodegaO.Tag = "bodegaOrigen";
+            this.txtBodegaO.TextChanged += new System.EventHandler(this.txtBodegaO_TextChanged);
             // 
             // txtBodegaDestino
             // 
-            this.txtBodegaDestino.Location = new System.Drawing.Point(264, 308);
+            this.txtBodegaDestino.Location = new System.Drawing.Point(264, 299);
             this.txtBodegaDestino.Name = "txtBodegaDestino";
             this.txtBodegaDestino.Size = new System.Drawing.Size(67, 20);
             this.txtBodegaDestino.TabIndex = 8;
             this.txtBodegaDestino.Tag = "bodegaDestino";
+            this.txtBodegaDestino.TextChanged += new System.EventHandler(this.txtBodegaDestino_TextChanged);
             // 
             // cbxBodegaDestino
             // 
             this.cbxBodegaDestino.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxBodegaDestino.FormattingEnabled = true;
-            this.cbxBodegaDestino.Location = new System.Drawing.Point(126, 308);
+            this.cbxBodegaDestino.Location = new System.Drawing.Point(126, 299);
             this.cbxBodegaDestino.Name = "cbxBodegaDestino";
             this.cbxBodegaDestino.Size = new System.Drawing.Size(121, 21);
             this.cbxBodegaDestino.TabIndex = 7;
+            this.cbxBodegaDestino.SelectedIndexChanged += new System.EventHandler(this.cbxBodegaDestino_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(123, 279);
+            this.label3.Location = new System.Drawing.Point(123, 270);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 13);
             this.label3.TabIndex = 6;
@@ -130,7 +134,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(126, 380);
+            this.textBox1.Location = new System.Drawing.Point(126, 371);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(99, 20);
             this.textBox1.TabIndex = 10;
@@ -139,7 +143,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 353);
+            this.label4.Location = new System.Drawing.Point(123, 344);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 9;
@@ -147,16 +151,17 @@
             // 
             // txtFecha
             // 
-            this.txtFecha.Location = new System.Drawing.Point(263, 441);
+            this.txtFecha.Location = new System.Drawing.Point(263, 432);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(67, 20);
             this.txtFecha.TabIndex = 12;
             this.txtFecha.Tag = "fecha";
+            this.txtFecha.TextChanged += new System.EventHandler(this.txtFecha_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(123, 415);
+            this.label5.Location = new System.Drawing.Point(123, 406);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 13);
             this.label5.TabIndex = 11;
@@ -165,24 +170,26 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(126, 441);
+            this.dateTimePicker1.Location = new System.Drawing.Point(126, 432);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(99, 20);
             this.dateTimePicker1.TabIndex = 13;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // txtEstatus
             // 
-            this.txtEstatus.Location = new System.Drawing.Point(241, 505);
+            this.txtEstatus.Location = new System.Drawing.Point(242, 516);
             this.txtEstatus.Name = "txtEstatus";
             this.txtEstatus.Size = new System.Drawing.Size(76, 20);
             this.txtEstatus.TabIndex = 15;
             this.txtEstatus.Tag = "estado";
+            this.txtEstatus.TextChanged += new System.EventHandler(this.txtEstatus_TextChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rbtInactivo);
             this.groupBox1.Controls.Add(this.rbtActivo);
-            this.groupBox1.Location = new System.Drawing.Point(125, 476);
+            this.groupBox1.Location = new System.Drawing.Point(126, 487);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(100, 77);
             this.groupBox1.TabIndex = 14;
@@ -199,6 +206,7 @@
             this.rbtInactivo.TabStop = true;
             this.rbtInactivo.Text = "Inactivo";
             this.rbtInactivo.UseVisualStyleBackColor = true;
+            this.rbtInactivo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rbtInactivo_MouseClick);
             // 
             // rbtActivo
             // 
@@ -210,20 +218,23 @@
             this.rbtActivo.TabStop = true;
             this.rbtActivo.Text = "Activo";
             this.rbtActivo.UseVisualStyleBackColor = true;
+            this.rbtActivo.MouseClick += new System.Windows.Forms.MouseEventHandler(this.rbtActivo_MouseClick);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(447, 164);
+            this.dataGridView1.Location = new System.Drawing.Point(444, 159);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 47;
             this.dataGridView1.Size = new System.Drawing.Size(685, 293);
             this.dataGridView1.TabIndex = 16;
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // TrasladoE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(1191, 594);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtEstatus);
@@ -245,6 +256,7 @@
             this.Name = "TrasladoE";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Transaccional Traslado Encabezado";
+            this.Load += new System.EventHandler(this.TrasladoE_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

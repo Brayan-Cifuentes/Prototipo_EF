@@ -3,7 +3,4 @@ D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\obj\Debug\CapaControladorTraslado.csproj.CoreCompileInputs.cache
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\obj\Debug\CapaControladorTraslado.dll
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\obj\Debug\CapaControladorTraslado.pdb
-D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\bin\Debug\CapaModeloTraslado.dll
-D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\bin\Debug\CapaModeloTraslado.pdb
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\obj\Debug\CapaControladorTraslado.csprojAssemblyReference.cache
-D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaControladorTraslado\obj\Debug\CapaControladorTraslado.csproj.CopyComplete

@@ -59,4 +59,8 @@ D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\bin\De
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\bin\Debug\CapaControladorReporte.pdb
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\bin\Debug\CapaModeloReporte.pdb
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.frmMantenimientoBodega.resources
+D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.ReporteProductos.resources
+D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.TrasladoE.resources
+D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.TrasladoD.resources
 D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.csprojAssemblyReference.cache
+D:\Proyectos_Git_Analisis\ExamenFinal\TrasladoProductos\CapaVistaTraslado\obj\Debug\CapaVistaTraslado.Properties.Resources.resources

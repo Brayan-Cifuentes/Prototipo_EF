@@ -28,11 +28,11 @@ namespace CapaVistaTraslado
             navegador1.idAplicacion = "4001";
 
             //ejecucion de ayuda
-            //navegador1.tablaAyuda = "Aplicacion";
-            //navegador1.campoAyuda = "pkId";
+            navegador1.tablaAyuda = "Aplicacion";
+            navegador1.campoAyuda = "pkId";
 
             //asociacion con reporte
-            //navegador1.funReportesVista("ruta", "idAplicacion", "Reporte");
+            navegador1.funReportesVista("ruta", "idAplicacion", "Reporte");
 
             //tabla Data grid view
             navegador1.pideGrid(dgvDatos);
